@@ -456,23 +456,23 @@ curl https://eight7-s3-file-service.onrender.com/files
 # 📸 Screenshots
 
 ### Demo 1 – Browser Live - S3 Ready Status
-[Demo1 Browser](screenshots/demo1.png)
+![Demo1 Browser](screenshots/demo1.png)
 *localhost:9494 - Browser JSON - {"status":"Live on AWS EC2 - S3 Ready","owner":"RaviTeja","project":"87-s3-file-service","tier":"9 - DevOps + Cloud"} - Proof of Eclipse + Spring Boot running*
 
 ### Demo 2 – Postman Upload - S3 Ready - 200 OK
-[Demo2 Upload](screenshots/demo2.png)
+![Demo2 Upload](screenshots/demo2.png)
 *POST http://localhost:9494/upload - Body form-data file: Screenshot 2026-10-24 151720.png - 200 OK 116ms Size 508B - Returns originalName, storage: Local (S3-Ready), fileName with UUID, bucket: raviteja-87-s3-files, path: C:\Users\...\Temp\s3-files, size: 13735 - Proof of S3 file upload working*
 
 ### Demo 3 – Home API - Project Info
-[Demo3 Home](screenshots/demo3.png)
+![Demo3 Home](screenshots/demo3.png)
 *GET http://localhost:9494/ - 200 OK 38ms Size 319B - Returns files: GET /files, owner: RaviTeja, tier: 9 - DevOps + Cloud, project: 87-s3-file-service, status: Live on AWS EC2 - S3 Ready, upload: POST /upload - Proof of home API*
 
 ### Demo 4 – List Files - S3 File List
-[Demo4 Files](screenshots/demo4.png)
+![Demo4 Files](screenshots/demo4.png)
 *GET http://localhost:9494/files - 200 OK 25ms Size 265B - Returns [{"fileName":"65d4e4c2-..._Screenshot.png","size":"13735"}] - Proof of S3 list files working after upload*
 
 ### Demo 5 – Render Live (After Deploy)
-[Demo5 Render](screenshots/demo1.png)
+![Demo5 Render](screenshots/demo1.png)
 *https://eight7-s3-file-service.onrender.com returns same JSON - Proof of Live Deployment on Internet (Add after Render deploy)*
 
 ---
