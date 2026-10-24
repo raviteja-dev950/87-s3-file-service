@@ -15,7 +15,7 @@
 
 **Live URL:** https://eight7-s3-file-service.onrender.com/
 
-![[Live](https://img.shields.io/badge/Live-Render-brightgreen?style=for-the-badge&logo=render)](https://eight7-s3-file-service.onrender.com)
+[[Live](https://img.shields.io/badge/Live-Render-brightgreen?style=for-the-badge&logo=render)](https://eight7-s3-file-service.onrender.com)
 
 
 
